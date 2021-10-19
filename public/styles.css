@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+
+* {
+  margin: 0;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+}
+
+.panels {
+  position: absolute;
+  left: 200px;
+  margin-bottom: 100px;
+  width: 100px;
+  height: 100px;
+  font-weight: bold;
+  box-sizing: border-box;
+}
+.myTabList {
+  position: absolute;
+  padding-left: 0;
+  top: 650px;
+  left: 200px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
